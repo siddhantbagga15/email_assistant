@@ -5,7 +5,7 @@ import './popup.css';
 const openAIAPIUrl = 'https://api.openai.com/v1/engines/text-davinci-002/completions';
 
 // API Key for openAI API
-const authToken = 'Bearer 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';
+const authToken = 'Bearer <<ENTER YOUR OpenAI KEY HERE>>';
 
 // Prefix for the email prompt
 const promptPrefix = "Compose an email message regarding the following: ";
