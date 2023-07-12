@@ -1,0 +1,92 @@
+.input-button-output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-section {
+  margin-top: 20px;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.input-box {
+  width: 200px;
+  height: 40px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.copy-section button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.output-box {
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+}
+
+.button-section {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+}
+
+.clear-button-section {
+  margin-left: -45px;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  width: 90px;
+  height: 40px;
+  display: inline-block;
+}
+
+.output-section {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.copy-save-section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.error-message {
+  margin-top: -10px;
+}
+
+html {
+  width: 500px;
+  height: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+html.output-visible {
+  width: 500px;
+  height: 390px;
+}

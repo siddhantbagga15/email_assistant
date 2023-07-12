@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Email Assistant",
+  "version": "1.0",
+  "description": "This is a Chrome extension that generates email drafts based on a short description.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "256": "icon.png"
+  },
+  "permissions": [
+    "activeTab", "scripting"
+  ]
+}
